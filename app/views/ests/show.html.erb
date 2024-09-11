@@ -1,0 +1,34 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Nombres:</strong>
+  <%= @est.nombres %>
+</p>
+
+<p>
+  <strong>Apellidos:</strong>
+  <%= @est.apellidos %>
+</p>
+
+<p>
+  <strong>Carrera:</strong>
+  <%= @est.carrera %>
+</p>
+
+<p>
+  <strong>Carnet:</strong>
+  <%= @est.carnet %>
+</p>
+
+<p>
+  <strong>Nacimiento:</strong>
+  <%= @est.nacimiento %>
+</p>
+
+<p>
+  <strong>Celular:</strong>
+  <%= @est.celular %>
+</p>
+
+<%= link_to 'Edit', edit_est_path(@est) %> |
+<%= link_to 'Back', ests_path %>
